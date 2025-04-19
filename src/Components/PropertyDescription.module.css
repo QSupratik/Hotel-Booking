@@ -1,0 +1,28 @@
+.descriptionWrapper {
+    border-top: 1px solid #ddd;
+    padding-top: 16px;
+    margin-top: 16px;
+  }
+  
+  .showMoreBtn {
+    margin-top: 8px;
+    background: none;
+    border: none;
+    color: #222;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .showMoreBtn:hover {
+    text-decoration: underline;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }

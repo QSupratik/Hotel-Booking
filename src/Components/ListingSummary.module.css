@@ -1,0 +1,108 @@
+.summaryContainer {
+    font-family: sans-serif;
+    padding: 24px 0;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .subInfo {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .highlightBox {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .reviewBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .rating {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ratingStars{
+    font-size: 1px;
+  }
+  
+  .starIcon {
+    margin-left: 4px;
+  }
+  
+  .reviewLink {
+    color: #717171;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .hostBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .hostImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .hostedBy {
+    font-weight: 600;
+  }
+  
+  .hostDetails {
+    color: #717171;
+    font-size: 14px;
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .featureItem {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+.trophyIcon{
+  color: gold;
+}
+
+  .icon {
+    color: gray;
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  
+  .featureTitle {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .featureDesc {
+    color: #717171;
+    font-size: 14px;
+  }
+  
