@@ -1,0 +1,27 @@
+.footer {
+    border-top: 1px solid #ebe3e3;
+  }
+  
+  .list-inline {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-inline-item {
+    margin-right: 10px;
+  }
+  
+  .list-inline-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .list-inline-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .form-select {
+    width: auto;
+    display: inline-block;
+  }
+  

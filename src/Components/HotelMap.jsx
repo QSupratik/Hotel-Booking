@@ -1,9 +1,7 @@
-// components/HotelMap.jsx
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
-// Fixing the default marker icon issue in Leaflet + Webpack
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl:
@@ -16,7 +14,7 @@ const HotelMap = ({ lat = 31.3875, lng = 75.5692 }) => {
   return (
     <MapContainer
       center={[lat, lng]}
-      zoom={14}
+      zoom={10}
       scrollWheelZoom={false}
       style={{ height: "400px", width: "100%", borderRadius: "15px" }}
     >
@@ -26,11 +24,10 @@ const HotelMap = ({ lat = 31.3875, lng = 75.5692 }) => {
       />
       <Marker position={[lat, lng]}>
         <Popup>
-          📍 This is your property's location!
+          Property's location!
         </Popup>
       </Marker>
     </MapContainer>
   );
 };
-
 export default HotelMap;

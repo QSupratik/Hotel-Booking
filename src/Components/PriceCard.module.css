@@ -1,4 +1,4 @@
-.mainCard{
+/* .mainCard{
     width: 70%;
     height: 60%;
     border-width: 0.5px;
@@ -8,24 +8,24 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-}
+} */
 
-.dateRow{
+/* .dateRow{
     display: flex;
     justify-content: center;
-}
-
+} */
+/* 
 .dateField{
     display: flex;
     flex-direction: column;
-}
-
+} */
+/* 
 .serviceFee{
     display: flex;
     flex-direction: row;
     justify-content:space-between   
-}
+} */
 
-.reserveActualButton{
+/* .reserveActualButton{
     background-color: #ff385c;
-}
+} */

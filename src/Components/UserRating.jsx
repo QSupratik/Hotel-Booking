@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const UserRating = ({ name, rating, location, comment }) => {
+const UserRating = ({ name, rating, location, comment, className }) => {
   const [expanded, setExpanded] = useState(false);
-
   const toggleExpanded = () => setExpanded((prev) => !prev);
 
   const renderStars = (count) => {
@@ -20,7 +19,7 @@ const UserRating = ({ name, rating, location, comment }) => {
   const shortComment = comment.length > 100 ? comment.slice(0, 100) + "..." : comment;
 
   return (
-    <div className="card mb-4 shadow-sm">
+    <div className={`card mb-4 shadow-sm ${className}`}>
       <div className="card-body">
         {/* Header */}
         <div className="d-flex justify-content-between align-items-center mb-2">

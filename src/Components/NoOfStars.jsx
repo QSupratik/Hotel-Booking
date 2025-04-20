@@ -4,7 +4,7 @@ function NoOfStars({rating}){
     let array = Array.from({length:rating});
     return(
         <>
-            {array.map( (items)=><StarIcon/>)}
+            {array.map( (items)=><StarIcon style={{fontSize:"20px"}}/>)}
         </>
     )
 }

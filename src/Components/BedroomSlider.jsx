@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 const rooms = [
   { id: 1, title: 'Bedroom 1', bed: '1 queen bed' },

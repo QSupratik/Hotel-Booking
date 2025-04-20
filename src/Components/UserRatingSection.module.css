@@ -1,0 +1,11 @@
+.abcd {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* optional: space between cards */
+    justify-content: space-between; /* to spread them nicely */
+  }
+  
+  .userRating {
+    width: 45%;
+  }
+  
